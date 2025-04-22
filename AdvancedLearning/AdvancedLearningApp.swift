@@ -11,7 +11,8 @@ import SwiftUI
 struct AdvancedLearningApp: App {
     var body: some Scene {
         WindowGroup {
-            MatchedGeometryEffectBootcamp()
+            let dataService = ProductionDataService(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!)
+            DependencyInjectionBootcamp(dataService: dataService)
         }
     }
 }
