@@ -11,8 +11,10 @@ import SwiftUI
 struct AdvancedLearningApp: App {
     var body: some Scene {
         WindowGroup {
-            let dataService = ProductionDataService(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!)
-            DependencyInjectionBootcamp(dataService: dataService)
+//            let dataService = ProductionDataService(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!)
+//            DependencyInjectionBootcamp(dataService: dataService)
+            
+            FeaturesBootcamp()
         }
     }
 }
