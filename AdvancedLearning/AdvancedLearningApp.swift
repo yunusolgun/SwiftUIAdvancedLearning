@@ -14,7 +14,7 @@ struct AdvancedLearningApp: App {
 //            let dataService = ProductionDataService(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!)
 //            DependencyInjectionBootcamp(dataService: dataService)
             
-            FeaturesBootcamp()
+            PropertyWrapperBootcamp()
         }
     }
 }
